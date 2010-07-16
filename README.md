@@ -1,4 +1,5 @@
-= resque-tabber
+resque-tabber
+=============
 
 Now that it's super-simple to mount Sinatra apps inside our Rails apps, there's
 a lot of people running their resque-web interface inside their app.  Cool stuff
