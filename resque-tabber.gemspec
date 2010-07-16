@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ben VandenBos"]
   s.date = %q{2010-07-16}
-  s.description = %q{Adds a tab to resque-web which goes wherever you want}
+  s.description = %q{Adds an arbitrary tab to resque-web which goes wherever you want}
   s.email = %q{bvandenbos@gmail.com}
   s.extra_rdoc_files = [
     "README.md"
@@ -20,14 +20,13 @@ Gem::Specification.new do |s|
      "README.md",
      "Rakefile",
      "lib/resque-tabber.rb",
-     "pkg/resque-tabber-0.0.1.gem",
      "resque-tabber.gemspec"
   ]
   s.homepage = %q{http://github.com/bvandenbos/resque-tabber}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Adds a tab to resque-web which goes wherever you want}
+  s.summary = %q{Adds an arbitrary tab to resque-web which goes wherever you want}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
