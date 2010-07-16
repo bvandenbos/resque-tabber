@@ -15,7 +15,7 @@ begin
 
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "resque-tabber"
-    gemspec.summary = "Adds a tab to resque-web which goes wherever you want"
+    gemspec.summary = "Adds an arbitrary tab to resque-web which goes wherever you want"
     gemspec.description = gemspec.summary
     gemspec.email = "bvandenbos@gmail.com"
     gemspec.homepage = "http://github.com/bvandenbos/resque-tabber"
