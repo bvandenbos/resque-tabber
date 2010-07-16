@@ -15,6 +15,14 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "README.md"
   ]
+  s.files = [
+    ".gitignore",
+     "README.md",
+     "Rakefile",
+     "lib/resque-tabber.rb",
+     "pkg/resque-tabber-0.0.1.gem",
+     "resque-tabber.gemspec"
+  ]
   s.homepage = %q{http://github.com/bvandenbos/resque-tabber}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
